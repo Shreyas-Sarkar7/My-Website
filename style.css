@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+body {
+    background: #222831;
+}
+.name{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(57, 60, 232);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 100;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 20px;
+    margin-left: 35px;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+.sect_1_name{
+    font-weight: 1000;
+    font-family: cursive;
+    animation: slideRight 1s ease forwards;
+    
+}
+.buttons-on-me{
+    margin-top:10%;
+}
+.buttons a {
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    font-size: 30px
+}
+.img_container-sect1{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 50px;
+    
+}
+.section_1 img{
+    height: 500px;
+    width: 600px;
+    border-radius: 100%;
+
+    
+}
+.section_1{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    font-size: 50px;
+    margin-top: 10%;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.section_2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.img_container{
+    display: flex;
+    margin-left: 10%;
+
+
+}
+.img_container img{
+    height: 500px;
+    width: 600px;
+    border-radius: 100%;
+}
+.about_me_header{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+    font-weight: 800;
+    font-size: 50px;
+    
+
+}
+.picture_des{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.img_container{
+    display: flex;
+    width: 50%;
+}
+.separation{
+    /* background: rgb(1, 1, 144); */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    
+}
+.about_me_description{
+    font-weight: 600;
+    margin-right: 20%;
+    font-size: 30px;
+}
+.about_me_description a{
+    margin-top: 10px;
+    text-decoration: none;
+    border: solid;
+    /* border-radius: 10px; */
+
+
+}
+
+.section_3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.project_header{
+    text-align: center;
+    margin-top: 5%
+}
+.container_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 20px;
+}
+.project_container{
+    border: solid;
+    padding: 20px;
+    margin: 0 30px 0 30px;
+}
+.project_container div{
+    font-size: 20px;
+    width: fit-content;
+}
+.project_container a{
+    font-size: 20px;
+    width: fit-content;
+    text-decoration: none;
+    color: red;
+    border: solid;
+    border-radius: 10px;
+}
+.project_container img{
+    width: max-content;
+}
+.section_4{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.sect-4-des{
+    justify-self: center;
+    align-self: center;
+}
+.certificates_header{
+    text-align: center;
+    margin-top: 5%
+}
+.sect_4_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 20px;
+}
+.certificate_des{
+    background:orange;
+}
+.img_containerc{
+    background: orange; 
+    margin: 0 30px 0 30px;
+}
+.img_containerc img{
+    width: max-content;
+}
+.img_containerc div{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sect_4_1_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.section_4_1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.section_4_2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.section_4_1 h1{
+    text-align: center;
+}
+.section_4_2 h1{
+    text-align: center;
+}
+.des-container{
+    background: orange;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.section_5{
+    height: 50vh;
+}
+.section_5 h1{
+    text-align: center;
+}
+.sect5-des{
+    margin: 40px 20px 10px 20px;
+    font-size: 30px;
+}
+.teacher{
+    font-size: 20px;
+    width: fit-content;
+}
+.teach-cont{
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
