@@ -28,6 +28,13 @@ body {
     text-decoration: none;
     z-index: 100;
     font-weight: 600;
+    
+}
+.logo:hover{
+    background:rgb(96, 98, 235);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    transform: scale(1.2);
 }
 .navbar{
     display: flex;
@@ -41,6 +48,12 @@ body {
     font-weight: 500;
     text-decoration: none;
     
+}
+.navbar a:hover{
+    background:rgb(96, 98, 235);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    transform: scale(1.2);
 }
 .sect_1_name{
     font-weight: 1000;
@@ -64,7 +77,7 @@ body {
     margin-left: 30%;
     margin-top: 50px;
     
-}z
+}
 
 .about_me_des_container{
     grid-auto-rows: 1fr;
@@ -137,12 +150,91 @@ html{
     width: fit-content;
     transition: 0.3s ease;
 }
+
 .about_me_description a:hover{
     background: rgb(57, 60, 232);
     transform: scale(1.05);
 }
-
 .section_3{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.section_3 h1{
+    text-align: center;
+    margin-top: 7%;
+}
+.description-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.description-container img{
+    margin-left: 15%;
+}
+.info-container{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Section_4{
+    text-align: center;
+    height: 60vh;
+    margin: 20%;
+
+}
+.cert-header{
+    font-size: 35px;
+    margin-top: 30%;
+}
+.certificate-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    border: solid;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+
+}
+.des a{
+    margin: 5%;
+    border: solid;
+    padding: 5%;
+    border-radius: 10%;
+
+}
+.Title{
+    margin-top: 6%;
+    margin-left: 30%;
+    font-size: 40px;
+
+}
+.info-container h5{
+    margin-bottom: 3%;
+}
+.info-container a{
+    margin-top: 3%;
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.section_3-2{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.section_3-2 h1{
+    text-align: center;
+    margin-top: 7%;
+}
+
+/* .section_3{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -159,6 +251,8 @@ html{
     margin-top: 20px;
 }
 .project_container{
+    display: flex;
+    flex-direction: column;
     border: solid;
     padding: 20px;
     margin: 0 30px 0 30px;
@@ -175,10 +269,27 @@ html{
     border: solid;
     border-radius: 10px;
 }
+.project_container a:hover{
+    color: blue;
+    transform: scale(1.2)
+}
 .project_container img{
     width: max-content;
-}
-.section_4{
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section_4{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -192,11 +303,11 @@ html{
     margin-top: 5%
 }
 .sect_4_container{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 10%; 
-    margin-right: 10%;
-    margin-top: 20px;
+    /* margin-left: 10%; 
+    margin-right: 10%; */
+    /* margin-top: 20px;
 }
 .certificate_des{
     background:orange;
@@ -204,14 +315,24 @@ html{
 .img_containerc{
     background: #2d2f47; 
     margin: 0 30px 0 30px;
-}
+    /* display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; */
+/* }
 .img_containerc img{
-    width: max-content;
-}
+    /* width: fit-content;
+    justify-self: center;
+    align-items: center;
+    margin: 10px; 
+    width: ;
+    height: auto */
+/* }
 .img_containerc div{
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .sect_4_1_container{
     display: grid;
@@ -258,7 +379,7 @@ html{
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-}
+}  */
 @keyframes slideRight{
     0%{
         transform: translateX(-200px);
